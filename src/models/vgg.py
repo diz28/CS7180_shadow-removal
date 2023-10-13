@@ -11,6 +11,10 @@ import time
 import os
 import copy
 
+
+# new comment from Di Zhang
+
+
 def set_parameter_requires_grad(model, feature_extracting):
     if feature_extracting:
         for param in model.parameters():
